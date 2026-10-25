@@ -72,7 +72,7 @@ Selected commands:
 
 ### Screenshots
 
-*Add screenshots of the Telegram dashboard, an example stock report, and a backtest here. Remove or blur usernames, chat IDs, API credentials, and any personal portfolio details before publishing.*
+screenshots
 
 ## Getting started
 
