@@ -65,7 +65,7 @@ Selected commands:
 | `/compare AVGO NVDA` | Compare two stocks |
 | `/chart AVGO` | Display a price chart |
 | `/watchlist` | View saved stocks and scores |
-| `/alert AVGO 250` | Create a price alert |
+| `/alert AVGO 250` | Create a price alert ($)|
 | `/backtest` | Open historical backtesting |
 | `/macro` | View macroeconomic analysis |
 | `/ai AVGO` | Request optional AI commentary (requires configuration) |
