@@ -60,7 +60,7 @@ Selected commands:
 | Command | Purpose |
 | --- | --- |
 | `/menu` | Open the interactive navigation menu |
-| `/check AVGO` | Analyse an individual stock |
+| `/check AVGO` | Analyse an individual stock - US Ticker |
 | `/tts` | Run the stock screen |
 | `/compare AVGO NVDA` | Compare two stocks |
 | `/chart AVGO` | Display a price chart |
