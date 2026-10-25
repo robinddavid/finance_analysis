@@ -135,13 +135,44 @@ This disclosure describes **how the software was developed**; it does **not** me
 
 This repository is a **personal learning and portfolio project**. It is not presented as a production-grade financial service. Running it reliably in production would require further integration testing, operational monitoring, and security review.
 
-## Limitations
+## Investment Strategy & Model Limitations
 
-- Financial data can be delayed, incomplete, inconsistent, or restricted by provider API limits.
-- The score is a heuristic and its thresholds and weights are subjective design choices.
-- Missing data may be scored neutrally and can affect comparisons.
-- Backtesting is sensitive to survivorship bias, publication lag, transaction costs, and assumptions about historical data availability.
-- A simulated result does not establish future predictive performance.
+**Current Investment Focus**
+
+Project Purple is primarily designed for medium- to long-term equity analysis, with a target investment horizon of approximately **3–7 years** and a focus on investors with a **higher risk tolerance**.
+
+The underlying approach combines elements of quality, value, and growth investing, supported by technical trend and momentum indicators. The objective is to identify financially solid companies with attractive valuations, sustainable growth potential, and favorable market characteristics.
+
+Rather than predicting short-term price movements, the model aims to support structured investment decisions through a transparent, rule-based multi-factor scoring framework.
+
+**Risk Profile & Strategy Characteristics**
+
+- **Investment Horizon:** Medium to long term (3–7 years)
+- **Risk Profile:** High, reflecting equity market volatility and individual stock exposure
+- **Investment Style:** Quality, Value & Growth with additional Momentum signals
+- **Asset Class:** Primarily US-listed equities
+- **Portfolio Approach:** Equal-weighted stock selection in the portfolio backtest, with monthly rebalancing
+- **Primary Objective:** Fundamental stock evaluation and systematic investment research, rather than short-term trading
+
+**Current Model Limitations**
+
+While Project Purple provides a structured approach to stock evaluation, several methodological limitations remain:
+
+- **Heuristic Factor Weights:** The current scoring weights are manually defined and have not yet been systematically optimized or validated through independent out-of-sample testing.
+- **Data Availability:** Missing financial indicators currently receive neutral scores, which may affect comparability between companies with different levels of data completeness.
+- **Sector Differences:** Some financial metrics are not equally meaningful across industries, requiring further refinement of sector-specific valuation methodologies.
+- **Indicator Overlap:** Certain factors, particularly analyst expectations, growth, and valuation metrics, may contain overlapping information.
+- **Backtesting Limitations:** Historical simulations remain sensitive to assumptions regarding transaction costs, data availability, portfolio construction, and potential selection or survivorship biases.
+- **Live vs. Historical Scoring:** The backtesting framework currently uses a simplified factor set and does not fully replicate all components of the live multi-factor scoring model.
+- **Risk Management:** The model does not yet implement comprehensive portfolio-level risk controls, such as sector exposure limits, correlation-based diversification, or volatility targeting.
+
+**Development Outlook**
+
+Project Purple remains a **work in progress**. My current focus is on improving factor weighting and validation, introducing data confidence scoring, refining sector-specific assessments, and strengthening backtesting methodology.
+
+The long-term goal is to develop a more reliable, explainable, and empirically validated investment research tool for personal use.
+
+*Disclaimer: The stated investment horizon and risk profile describe the intended strategy design, not empirically validated performance characteristics. Project Purple is an experimental personal research tool and does not constitute financial advice or a recommendation to buy or sell securities.*
 
 ## Roadmap & Work in Progress
 
