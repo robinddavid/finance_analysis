@@ -2,7 +2,7 @@
 
 **A Python-based financial analytics project combining multi-factor stock scoring, automated screening, macroeconomic data, backtesting, and an interactive Telegram interface.**
 
-> **Interface language:** German 🇩🇪 · **Documentation:** English 🇬🇧  
+> **Interface language:** German  · **Documentation:** English   
 > **Development approach:** AI-assisted / vibe-coded · **Scoring approach:** Rule-based, not a trained machine-learning model
 
 ## Overview
