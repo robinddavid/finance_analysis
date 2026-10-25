@@ -80,7 +80,7 @@ Selected commands:
 
 1. Clone the repository and enter its directory.
    ```bash
-   git clone https://github.com/YOUR_NAME/finance_analysis.git
+   git clone https://github.com/robinddavid/finance_analysis.git
    cd finance_analysis
    ```
 2. Create and activate a virtual environment.
