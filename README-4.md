@@ -264,7 +264,8 @@ The current implementation identifies its scoring model as `no_fred_quality_grow
 - [ ] **More rigorous backtesting:** Evaluate benchmark-relative returns, Sharpe ratio, maximum drawdown, transaction costs, and potential biases.
 - [ ] **Live/backtest consistency:** Reduce the gap between the production scoring factors and the historical factors that can be reconstructed reliably.
 - [ ] **Risk and signal calibration:** Test score thresholds, diversification, and exposure constraints before drawing conclusions about performance.
-
+- [ ] **Codebase Modularization:** Refactor the monolithic Python script into separate components for data retrieval, financial analysis, scoring, backtesting, and Telegram interactions to improve maintainability and testability.
+- [ ] 
 ## My contribution & development approach
 
 I defined the project concept, selected the financial indicators, designed their scoring logic and weights, and planned the main Telegram workflows. I used an **AI-assisted development (vibe-coding)** process to implement and refine the Python application, iteratively specifying features, reviewing outputs, testing behavior, troubleshooting issues, and adjusting the analytical framework.
