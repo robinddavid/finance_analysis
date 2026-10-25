@@ -1,0 +1,17 @@
+.env
+.env.*
+!.env.example
+purple_secrets.json
+purple_secrets.json.*
+purple_data.json
+purple_data.json.*
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.idea/
+.DS_Store
+*.log
+*.sqlite
+*.sqlite3
+.ipynb_checkpoints/
