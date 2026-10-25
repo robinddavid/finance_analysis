@@ -129,3 +129,7 @@ This repository is a **personal learning and portfolio project**. It is not pres
 ## Disclaimer
 
 **For educational and analytical purposes only.** Project Purple does not provide personalised investment advice, guarantee returns, or place trades. All investment decisions require independent research and consideration of risk.
+
+## Usage & Data Licensing
+
+This repository is a personal portfolio and educational project. The source code is provided for demonstration purposes. API credentials are not included, and users must obtain their own credentials and comply with the applicable data providers' terms of service. The deployed Telegram bot is intended for private use and is not publicly accessible. This product uses the FRED® API but is not endorsed or certified by the Federal Reserve Bank of St. Louis.
