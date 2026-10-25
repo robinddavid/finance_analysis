@@ -143,6 +143,21 @@ This repository is a **personal learning and portfolio project**. It is not pres
 - Backtesting is sensitive to survivorship bias, publication lag, transaction costs, and assumptions about historical data availability.
 - A simulated result does not establish future predictive performance.
 
+## Roadmap & Work in Progress
+
+Project Purple is an ongoing personal project that I continuously refine to improve the reliability, transparency, and analytical quality of its stock evaluations.
+
+**Planned Improvements:**
+
+- [ ] **Factor Weight Optimization:** Compare different weighting strategies using historical out-of-sample backtesting rather than relying solely on manually defined weights.
+- [ ] **Data Confidence Scoring:** Introduce a separate confidence indicator based on data availability and completeness to distinguish missing information from neutral scores.
+- [ ] **Sector-Specific Valuation:** Refine scoring methodologies to better account for differences between industries and business models.
+- [ ] **Indicator Redundancy:** Identify and reduce overlapping signals, particularly between analyst expectations, valuation metrics, and growth indicators.
+- [ ] **Backtesting Validation:** Expand performance evaluation to include Sharpe Ratio, maximum drawdown, benchmark comparisons, transaction costs, and bias controls.
+- [ ] **Model Transparency:** Improve the documentation and interpretation of individual factor contributions and their influence on the overall stock rating.
+
+The long-term objective is to develop a more robust and explainable multi-factor framework for personal investment research, rather than a predictive trading system.
+
 ## Disclaimer
 
 **For educational and analytical purposes only.** Project Purple does not provide personalised investment advice, guarantee returns, or place trades. All investment decisions require independent research and consideration of risk.
