@@ -72,7 +72,7 @@ Selected commands:
 
 ### Screenshots
 
-screenshots
+[View Project Screenshots](https://github.com/robinddavid/finance_analysis/tree/main/screenshots)
 
 ## Getting started
 
