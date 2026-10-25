@@ -1255,8 +1255,7 @@ def fred_get_series(series_id, limit=24):
                 continue
         return values
 
-    return cached(f"fred:{series_id}:{limit}", 6 * 3600, fetch)
-
+return fetch()
 
 def _fred_latest(series_id):
     obs = fred_get_series(series_id, 24)
