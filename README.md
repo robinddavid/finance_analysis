@@ -76,6 +76,23 @@ Selected commands:
 
 ## Getting started
 
+### Create a Telegram Bot
+
+1. Open [@BotFather](https://t.me/BotFather) in Telegram.
+2. Send `/newbot` to create a new bot.
+3. Choose a display name and a unique username ending in `bot`.
+4. Copy the API token provided by BotFather.
+5. Add the token to your local `.env` file:
+
+   TELEGRAM_BOT_TOKEN=your_telegram_bot_token
+
+6. Start the application and send `/id` to your new bot to retrieve your Telegram user ID.
+7. Add your ID to `ALLOWED_USER_IDS` in `.env` and restart the application.
+
+For detailed instructions, see the [official Telegram Bot Tutorial](https://core.telegram.org/bots/tutorial).
+
+**Security:** Never share your bot token or commit it to GitHub.
+
 **Prerequisites:** Python 3 and a Telegram bot token. External data services may require API credentials, quotas, or subscriptions.
 
 1. Clone the repository and enter its directory.
