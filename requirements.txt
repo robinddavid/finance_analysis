@@ -1,8 +1,0 @@
-python-telegram-bot[job-queue]
-python-dotenv
-numpy
-pandas
-matplotlib
-requests
-yfinance
-dbnomics
