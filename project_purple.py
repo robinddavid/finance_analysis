@@ -50,7 +50,9 @@ warnings.filterwarnings("ignore", category=Warning)
 TELEGRAM_BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN", "").strip()
 FINNHUB_API_KEY = os.getenv("FINNHUB_API_KEY", "").strip()
 NEWS_API_KEY = os.getenv("NEWS_API_KEY", "").strip()
-
+NEWS_API_DEV_MODE = os.getenv(
+    "NEWS_API_DEV_MODE", "false"
+).lower() == "true"
 
 # FRED-Key aus lokaler .env-Datei oder Umgebungsvariablen laden:
 FRED_API_KEY = os.getenv("FRED_API_KEY", "").strip()
@@ -1158,11 +1160,25 @@ def company_news(ticker, n=5):
 
 
 def market_news(n=5):
+    """NewsAPI: ausschließlich für lokale Entwicklung und Tests."""
+
+    if not NEWS_API_DEV_MODE:
+        return []
+
+    if not NEWS_API_KEY:
+        return []
+
     res = requests.get(
         "https://newsapi.org/v2/top-headlines",
-        params={"category": "business", "country": "us", "pageSize": n, "apiKey": NEWS_API_KEY},
+        params={
+            "category": "business",
+            "country": "us",
+            "pageSize": n,
+            "apiKey": NEWS_API_KEY,
+        },
         timeout=10,
     ).json()
+
     return res.get("articles", [])
 
 
